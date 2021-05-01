@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -24,14 +21,12 @@
         <h3 id="heading">QR Builder</h3>
         <br />
         <br />
-        <div class="form-group">
-          <textarea
-            class="form-control"
-            id="qr-text"
-            rows="3"
-            placeholder="Enter text/link"
-          ></textarea>
-        </div>
+        <textarea
+          class="form-control rounded-0"
+          id="qr-text"
+          rows="3"
+          required
+        ></textarea>
         <br />
         <div>
           <button class="btn btn-primary btn-lg" onclick="generateQRCode()">
