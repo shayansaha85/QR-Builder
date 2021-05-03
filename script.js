@@ -3,7 +3,7 @@
     (function() {
             qr = new QRious({
             element: document.getElementById('qr-code'),
-            size: 300,
+            size: 350,
             value: 'I can generate QR code for you'
         });
     })();
@@ -14,7 +14,7 @@
       
         qr.set({
             foreground: 'black',
-            size: 300,
+            size: 350,
             value: qrtext
         });
     }
